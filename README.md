@@ -1,8 +1,3 @@
-Got it — here’s a **short, clean, workshop-ready README**
-Perfect for students and demos.
-
-
-
 # Insecure Flask Web App – Cybersecurity Demo
 
 This is a **simple Python Flask application** intentionally built with **basic security flaws** for learning purposes.
