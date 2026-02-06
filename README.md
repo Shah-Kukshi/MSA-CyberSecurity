@@ -28,7 +28,7 @@ It is used in a **cybersecurity workshop** to demonstrate:
 ## How to Run
 
 ```bash
-pip install flask
+pip install -r requirements.txt
 python app.py
 ```
 
