@@ -8,7 +8,7 @@ def home():
 
 @app.route("/data", methods=["GET"])
 def get_sensitive_data():
-    # ❌ VULNERABILITY 3: No authentication check
+    # ❌ VULNERABILITY 1: No authentication check
     return jsonify({
         "users": ["Alice", "Bob", "Charlie"],
         "emails": [
@@ -21,5 +21,5 @@ def get_sensitive_data():
 
 
 if __name__ == "__main__":
-    # ❌ VULNERABILITY 4: Debug mode enabled
+    # ❌ VULNERABILITY 2: Debug mode enabled
     app.run(host="0.0.0.0", port=5000, debug=True)
